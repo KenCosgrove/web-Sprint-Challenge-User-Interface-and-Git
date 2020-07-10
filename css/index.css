@@ -265,7 +265,7 @@ footer nav a {
 .about-text-container {
   width: 95%;
   margin: 0 auto;
-  padding-bottom: 1rem;
+  padding: 2rem 0;
 }
 
 .flex-container {
@@ -279,4 +279,19 @@ footer nav a {
   flex-direction: column;
   flex-basis: 40%;
   margin: 0 auto;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.flex-box button {
+  background: white;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 0.4rem 1.2rem;
+  margin: 1rem 0;
+}
+
+.flex-box h2 {
+  padding-top: 1rem;
 }
