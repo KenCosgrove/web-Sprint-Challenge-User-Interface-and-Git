@@ -140,22 +140,23 @@ body {
 
 /*  Header/nav styles   */
 
-nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 2rem;
 }
 
-nav a {
+header nav a {
   text-decoration: none;
+  color: black;
 }
 
-nav a:nth-child(6) {
+header nav a:nth-child(6) {
   padding-right: 3rem;
 }
 
-nav a:visited {
+header nav a:visited {
   color: black;
 }
 
@@ -221,6 +222,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.box {
 }
 
 .bottom-content {
