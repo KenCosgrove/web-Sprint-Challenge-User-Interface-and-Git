@@ -216,16 +216,44 @@ p {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  background: black;
   margin: 20px 2.5%;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.box {
+/* box colors*/
+.boxes :nth-child(1) {
+  background: teal;
 }
+.boxes :nth-child(2) {
+  background: gold;
+}
+.boxes :nth-child(3) {
+  background: cadetblue;
+}
+.boxes :nth-child(4) {
+  background: coral;
+}
+.boxes :nth-child(5) {
+  background: crimson;
+}
+.boxes :nth-child(6) {
+  background: forestgreen;
+}
+.boxes :nth-child(7) {
+  background: darkorchid;
+}
+.boxes :nth-child(8) {
+  background: hotpink;
+}
+.boxes :nth-child(9) {
+  background: indigo;
+}
+.boxes :nth-child(10) {
+  background: dodgerblue;
+}
+/*----- ^^ is there a way to condense this without multiple nths or without making 10 different classes, one for each box? */
 
 .bottom-content {
   display: flex;
@@ -260,12 +288,12 @@ footer nav a {
   text-decoration: none;
 }
 
-/*About me styles*/
+/*About styles*/
 
 .about-text-container {
   width: 95%;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding-bottom: 1.2rem;
 }
 
 .flex-container {
