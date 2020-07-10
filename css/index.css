@@ -259,3 +259,24 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/*About me styles*/
+
+.about-text-container {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 95%;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  margin: 0 auto;
+}
